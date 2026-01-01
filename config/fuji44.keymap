@@ -84,17 +84,17 @@
             bindings = <
 &kp ESC       &kp Q                &kp W             &kp E             &kp R         &kp T               &kp Y            &kp U          &kp I      &kp O    &kp P     &kh_hs_tapdance
 &kp TAB       &hrm LEFT_CONTROL A  &hrm RIGHT_ALT S  &hrm RIGHT_WIN D  &hrm RSHFT F  &kp G               &kp H            &kp J          &kp K      &kp L    &kp SEMI  &kp SINGLE_QUOTE
-&kp LEFT_ALT  &kp Z                &kp X             &lt 3 C           &lt 2 V       &lt 1 B             &kp N            &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
+&kp LEFT_ALT  &kp Z                &kp X             &kp C             &kp V         &kp B               &kp N            &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
                                    &mo 2             &mo 1             &kp ENTER     &kp LEFT_COMMAND    &kp RIGHT_SHIFT  &kp BACKSPACE  &kp SPACE  &mo 3
             >;
         };
 
         num {
             bindings = <
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH    &kp SLASH   &kp N7        &kp N8        &kp N9        &kp EQUAL     &none
-&trans  &trans            &trans             &trans          &kp TILDE        &kp GRAVE        &kp PERIOD  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &none
-&trans  &kp CAPSLOCK      &none              &none           &kp COMMA        &kp DOT          &kp COMMA   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &trans
-                          &trans             &trans          &trans           &trans           &trans      &kp DELETE    &kp ENTER     &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH    &kp SLASH         &kp N7        &kp N8        &kp N9        &kp EQUAL     &none
+&trans  &trans            &trans             &trans          &kp TILDE        &kp GRAVE        &kp GREATER_THAN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS     &none
+&trans  &kp CAPSLOCK      &none              &none           &kp COMMA        &kp DOT          &kp LESS_THAN     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &trans
+                          &trans             &trans          &trans           &trans           &trans            &kp DELETE    &kp ENTER     &trans
             >;
         };
 
