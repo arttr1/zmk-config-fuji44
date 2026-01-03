@@ -82,16 +82,16 @@
 
         base {
             bindings = <
-&kp ESC       &kp Q                &kp W             &kp E             &kp R         &kp T               &kp Y            &kp U          &kp I      &kp O    &kp P     &kh_hs_tapdance
-&kp TAB       &hrm LEFT_CONTROL A  &hrm RIGHT_ALT S  &hrm RIGHT_WIN D  &hrm RSHFT F  &kp G               &kp H            &kp J          &kp K      &kp L    &kp SEMI  &kp SINGLE_QUOTE
-&kp LEFT_ALT  &kp Z                &kp X             &kp C             &kp V         &kp B               &kp N            &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
-                                   &mo 2             &mo 1             &kp ENTER     &kp LEFT_COMMAND    &kp RIGHT_SHIFT  &kp BACKSPACE  &kp SPACE  &mo 3
+&kp ESC       &kp Q                &kp W             &kp E             &kp R         &kp T               &kp Y            &kp U          &kp I             &kp O             &kp P                    &kh_hs_tapdance
+&kp TAB       &hrm LEFT_CONTROL A  &hrm RIGHT_ALT S  &hrm RIGHT_WIN D  &hrm RSHFT F  &kp G               &kp H            &hrm J RSHFT   &hrm K RIGHT_WIN  &hrm L RIGHT_ALT  &hrm SEMI RIGHT_CONTROL  &kp SINGLE_QUOTE
+&kp LEFT_ALT  &kp Z                &kp X             &kp C             &kp V         &kp B               &kp N            &kp M          &kp COMMA         &kp DOT           &kp FSLH                 &kp RCTRL
+                                   &mo 2             &mo 1             &kp ENTER     &kp LEFT_COMMAND    &kp RIGHT_SHIFT  &kp BACKSPACE  &kp SPACE         &mo 3
             >;
         };
 
         num {
             bindings = <
-&trans  &kp MINUS     &kp EQUAL  &kp UNDER  &kp PLUS   &kp BACKSLASH    &kp LEFT_BRACKET  &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET  &none
+&trans  &kp MINUS     &kp EQUAL  &kp UNDER  &kp PLUS   &kp BACKSLASH    &kp LEFT_BRACKET  &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET  &kp SLASH
 &trans  &trans        &trans     &trans     &kp TILDE  &kp GRAVE        &kp LS(E)         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SINGLE_QUOTE   &none
 &trans  &kp CAPSLOCK  &none      &none      &kp W      &kp E            &kp LS(W)         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0       &trans
                       &trans     &trans     &trans     &trans           &trans            &kp DELETE    &kp ENTER     &trans
